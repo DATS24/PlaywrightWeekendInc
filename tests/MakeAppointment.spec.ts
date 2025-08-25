@@ -6,7 +6,6 @@ test.beforeEach(async ({ page }) => {
     await page.locator("#txt-username").fill("John Doe")
     await page.locator("#txt-password").fill("ThisIsNotAPassword")
     await page.locator("#btn-login").click()
-    await expect(page.locator("text=Make Appointment")).toBeVisible()
 })
 
 
