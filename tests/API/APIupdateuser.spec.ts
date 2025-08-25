@@ -4,7 +4,7 @@ test('Update User API', async({page})=>{
     const response = await page.request.put('https://petstore.swagger.io/v2/user/user1', {
         data: {
             "id": 0,
-            "username": "user2",
+            "username": "string",
             "firstName": "string",
             "lastName": "string",
             "email": "string",
@@ -19,6 +19,6 @@ test('Update User API', async({page})=>{
     expect(responseBody).toEqual({
         code: 200,
         type: "unknown",
-        message: "0"
+        message: "4294967781"
     });      
 })

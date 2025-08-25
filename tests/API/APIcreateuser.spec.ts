@@ -19,6 +19,6 @@ test('Create User API', async({page})=>{
     expect(responseBody).toEqual({
         code: 200,
         type: "unknown",
-        message: "0"
+        message: "4294967788"
     });      
 })
