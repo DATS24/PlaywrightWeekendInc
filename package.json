@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "playwright": "^1.54.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "allure": "^3.0.0-beta.16"
+  },
+  "scripts": {}
+}
